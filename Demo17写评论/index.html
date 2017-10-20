@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	<!--顶部logo-->
+	<header>
+		<img src="img/logo.png"/>
+		<span class="sw">业主评价</span>
+		<div>
+			<span class="iconfont icon-nav"></span>
+			<p>导航</p>
+		</div>
+	</header>
+	<aside>
+		<div class="dd"></div>
+		<div class="asd">
+			<div class="c1">
+				<span class="cont"><img src="img/small.jpg" alt="" class="yuan"> <span class="cont1">x*h</span></span> 
+	          	<span class="data">2016-06-09</span>
+			</div>
+			<p class="zhuangxiu">这篇文章很实用，正在装修，可以参考一下</p>
+		</div>
+		<div class="asd">
+			<div class="c1">
+				<span class="cont"><img src="img/small.jpg" alt="" class="yuan"> <span class="cont1">x*h</span></span> 
+	          	<span class="data">2016-06-09</span>
+			</div>
+			<p class="zhuangxiu">这篇文章很实用，正在装修，可以参考一下</p>
+		</div>
+		
+		<div id="xie">
+            <span>请先登录或注册成为房先森会员才可以评论</span>
+        </div>
+        <div id="over">
+            <ul>
+              	<li class="q">q</li>
+              	<li class="q">w</li>
+              	<li class="q">e</li>
+              	<li class="q">r</li>
+              	<li class="q">t</li>
+              	<li class="q">y</li>
+              	<li class="q">u</li>
+              	<li class="q">i</li>
+              	<li class="q">o</li>
+              	<li class="q">p</li>
+            </ul>
+            <ul>
+              	<li class="q">a</li>
+              	<li class="q">s</li>
+              	<li class="q">d</li>
+              	<li class="q">f</li>
+              	<li class="q">g</li>
+              	<li class="q">h</li>
+              	<li class="q">j</li>
+              	<li class="q">k</li>
+              	<li class="q">l</li>
+            </ul>
+            <ul>
+              	<li class="x">返回</li>
+              	<li class="q">z</li>
+              	<li class="q">x</li>
+              	<li class="q">c</li>
+              	<li class="q">v</li>
+              	<li class="q">b</li>
+              	<li class="q">n</li>
+              	<li class="q">m</li>
+              	<li class="x">清除</li>
+            </ul>
+            <ul>
+              	<li class="x">123</li>
+              	<li class="x">⊙</li>
+              	<li class="q">v</li>
+              	<li class="l">空格</li>
+              	<li class="ll">换行</li>
+            </ul>
+        </div>
+	</aside>
+	
+</body>
+<script>
+	//rem原理
+	//innerWidth当前文档窗口的宽/16
+	document.documentElement.style.fontSize=innerWidth/16+"px";
+	console.log("1rem="+innerWidth/16)
+    //当前文档窗口大小发生变化
+	onresize=function(){
+		document.documentElement.style.fontSize=innerWidth/16+"px";
+	}
+</script>
+</html>
+

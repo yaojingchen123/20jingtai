@@ -1,0 +1,121 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "微软雅黑";
+}
+img{
+    width: 100%;
+}
+.ry_wrapper{
+    overflow: hidden;
+    opacity: 0.5;
+}
+.ry_header{
+    display: flex;
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    align-items: center;
+    >p:nth-child(1){
+        font-size: 0.3rem;
+        font-weight: bold;
+        margin-left: 3.2rem;
+        letter-spacing: 0.02rem;
+    }
+    >p:nth-child(2){
+        margin-left: 2.65rem;
+        span{
+            font-size: 0.3rem;
+        }
+    }
+}
+.ry_swiper-logo{
+    height: 0.8rem;
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+.ry_title{
+    display: flex;
+    font-size: 0.25rem;
+    padding: 0.2rem 0;
+    border-bottom: 0.2rem solid #f4f4f4;
+    >div{
+        width: 25%;
+        text-align: center;
+        >p{
+            padding: 0.06rem 0;
+            color: #999;
+            margin-right: 0.1rem;
+        }
+        img{
+            width: 70%;
+        }
+    }
+}
+.ry_banner{
+    display: flex;
+    font-size: 0.3rem;
+    >div{
+        width: 50%;
+    }
+    >div:nth-child(1){
+        width: 49%;
+        border-right: 0.01rem solid #999;
+        
+        >div:nth-child(1){
+            padding:0.16rem 0 0 0.1rem;
+            
+            >p:nth-child(1){
+                color: #EF7C45;
+            }
+            >p:nth-child(2){
+                font-size: 0.2rem;
+                color: red;
+            }
+        }
+        >div:nth-child(2){
+            margin-top: 0.55rem;
+            margin-left: 0.35rem;
+            width: 70%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    >div:nth-child(2){
+        font-size: 0.2rem;
+        >div{
+            height: 50%;
+            display: flex;
+            >div:nth-child(1){
+                padding:0.16rem 0 0.2rem 0.18rem;
+                width: 70%;
+                >p:nth-child(1){
+                    font-size: 0.3rem;
+                }
+            }
+            >div:nth-child(2){
+                margin-top: 0.48rem;
+                margin-left: 0.22rem;
+
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        >div:nth-child(2){
+            border-top: 0.01rem solid #999;
+            margin-top: 0.05rem;
+            >div:nth-child(2){
+                margin-top: 0.9rem;
+                margin-right: 0.5rem;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

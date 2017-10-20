@@ -1,0 +1,96 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+img {
+  width: 100%; }
+
+.ry_wrapper {
+  overflow: hidden;
+  opacity: 0.5; }
+
+.ry_header {
+  display: flex;
+  font-size: 0.3rem;
+  padding: 0.2rem 0;
+  align-items: center; }
+  .ry_header > p:nth-child(1) {
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-left: 3.2rem;
+    letter-spacing: 0.02rem; }
+  .ry_header > p:nth-child(2) {
+    margin-left: 2.65rem; }
+    .ry_header > p:nth-child(2) span {
+      font-size: 0.3rem; }
+
+.ry_swiper-logo {
+  height: 0.8rem; }
+  .ry_swiper-logo img {
+    width: 100%;
+    display: block; }
+
+.ry_title {
+  display: flex;
+  font-size: 0.25rem;
+  padding: 0.2rem 0;
+  border-bottom: 0.2rem solid #f4f4f4; }
+  .ry_title > div {
+    width: 25%;
+    text-align: center; }
+    .ry_title > div > p {
+      padding: 0.06rem 0;
+      color: #999;
+      margin-right: 0.1rem; }
+    .ry_title > div img {
+      width: 70%; }
+
+.ry_banner {
+  display: flex;
+  font-size: 0.3rem; }
+  .ry_banner > div {
+    width: 50%; }
+  .ry_banner > div:nth-child(1) {
+    width: 49%;
+    border-right: 0.01rem solid #999; }
+    .ry_banner > div:nth-child(1) > div:nth-child(1) {
+      padding: 0.16rem 0 0 0.1rem; }
+      .ry_banner > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
+        color: #EF7C45; }
+      .ry_banner > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+        font-size: 0.2rem;
+        color: red; }
+    .ry_banner > div:nth-child(1) > div:nth-child(2) {
+      margin-top: 0.55rem;
+      margin-left: 0.35rem;
+      width: 70%; }
+      .ry_banner > div:nth-child(1) > div:nth-child(2) img {
+        width: 100%; }
+  .ry_banner > div:nth-child(2) {
+    font-size: 0.2rem; }
+    .ry_banner > div:nth-child(2) > div {
+      height: 50%;
+      display: flex; }
+      .ry_banner > div:nth-child(2) > div > div:nth-child(1) {
+        padding: 0.16rem 0 0.2rem 0.18rem;
+        width: 70%; }
+        .ry_banner > div:nth-child(2) > div > div:nth-child(1) > p:nth-child(1) {
+          font-size: 0.3rem; }
+      .ry_banner > div:nth-child(2) > div > div:nth-child(2) {
+        margin-top: 0.48rem;
+        margin-left: 0.22rem; }
+        .ry_banner > div:nth-child(2) > div > div:nth-child(2) img {
+          width: 100%; }
+    .ry_banner > div:nth-child(2) > div:nth-child(2) {
+      border-top: 0.01rem solid #999;
+      margin-top: 0.05rem; }
+      .ry_banner > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) {
+        margin-top: 0.9rem;
+        margin-right: 0.5rem; }
+        .ry_banner > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) img {
+          width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

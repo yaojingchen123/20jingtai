@@ -1,0 +1,240 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+.wrapper {
+  overflow: hidden; }
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.01rem solid #EAEAEA; }
+  header > div > div:nth-child(1) {
+    width: 35%;
+    padding: 0.16rem 0 0 0.18rem; }
+    header > div > div:nth-child(1) img {
+      width: 100%; }
+  header > div > div:nth-child(2) {
+    font-size: 0.36rem;
+    color: #000;
+    flex-grow: 1;
+    margin-left: 8%; }
+  header > div > div:nth-child(3) {
+    padding-right: 0.16rem;
+    display: flex;
+    width: 18%;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 0.22rem;
+    color: #999999; }
+    header > div > div:nth-child(3) p {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      header > div > div:nth-child(3) p span:nth-child(1) {
+        font-size: 0.45rem;
+        display: inline-block; }
+
+.title {
+  padding: 0.36rem 3% 0.36rem 3%;
+  width: 94%;
+  font-size: 0.26rem; }
+  .title > p:nth-child(1) {
+    display: flex;
+    font-size: 0.3rem;
+    color: #000; }
+    .title > p:nth-child(1) span {
+      font-size: 0.24rem;
+      letter-spacing: 0.02rem;
+      display: inline-block;
+      margin-left: 3%;
+      padding: 0.02rem;
+      background: #39C894;
+      border-radius: 0.1rem;
+      color: white; }
+  .title > div:nth-child(2) {
+    display: flex;
+    margin-top: 0.3rem; }
+    .title > div:nth-child(2) span {
+      font-size: 0.24rem;
+      color: #999999; }
+    .title > div:nth-child(2) p:nth-child(2), .title > div:nth-child(2) p:nth-child(3) {
+      margin-left: 8%; }
+  .title > div:nth-child(3) {
+    margin: 0.3rem 0; }
+    .title > div:nth-child(3) span {
+      font-size: 0.24rem;
+      color: #999999; }
+  .title > div:nth-child(4) {
+    height: 0.7rem;
+    font-size: 0.28rem;
+    display: flex;
+    justify-content: space-around; }
+    .title > div:nth-child(4) > div {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      border: 0.01rem solid #999;
+      color: #39c894; }
+      .title > div:nth-child(4) > div .blue {
+        color: #1B9AF7; }
+      .title > div:nth-child(4) > div div {
+        margin: 0 auto; }
+        .title > div:nth-child(4) > div div p {
+          display: inline-block; }
+        .title > div:nth-child(4) > div div p:nth-child(1) {
+          margin-right: 0.1rem;
+          font-size: 0.3rem;
+          border-left: none; }
+
+.banner {
+  width: 94%;
+  padding: 0.36rem 3% 0 0.36rem;
+  background: #F4F4F4; }
+  .banner > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.28rem;
+    color: #000; }
+    .banner > div:nth-child(1) p:nth-child(1) a {
+      display: inline-block;
+      color: #39C894; }
+    .banner > div:nth-child(1) p:nth-child(2) span {
+      color: #999999; }
+  .banner ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.36rem; }
+    .banner ul li {
+      width: 96%;
+      padding-right: 2%;
+      position: relative;
+      border-left: 0.01rem solid #dcdcdc;
+      padding-bottom: 0.36rem; }
+      .banner ul li > p:nth-child(1) {
+        display: flex;
+        font-size: 0.28rem;
+        margin-left: 10%; }
+        .banner ul li > p:nth-child(1) span {
+          display: inline-block;
+          height: 0.6rem;
+          line-height: 0.6rem;
+          padding: 0 3%; }
+        .banner ul li > p:nth-child(1) span:nth-child(1) {
+          background: #EAEAEA;
+          color: #666; }
+        .banner ul li > p:nth-child(1) span:nth-child(2) {
+          background: #39C894;
+          color: white; }
+        .banner ul li > p:nth-child(1) span:nth-child(3) {
+          margin-left: 3%;
+          background: #FEB505;
+          color: white; }
+      .banner ul li > p:nth-child(2) {
+        font-size: 0.3rem;
+        margin: 0.3rem 0  0.3rem 10%; }
+      .banner ul li > div:nth-child(3) {
+        width: 100%;
+        margin-left: 10%;
+        display: flex;
+        flex-flow: wrap; }
+        .banner ul li > div:nth-child(3) p {
+          width: 32%; }
+        .banner ul li > div:nth-child(3) img {
+          margin-right: 0.06rem;
+          width: 100%;
+          height: 100%; }
+        .banner ul li > div:nth-child(3) img:nth-child(4), .banner ul li > div:nth-child(3) img:nth-child(5), .banner ul li > div:nth-child(3) img:nth-child(6) {
+          margin-top: 0.06rem; }
+      .banner ul li .green {
+        position: absolute;
+        width: 0.45rem;
+        height: 0.45rem;
+        left: -3.5%;
+        top: 1%;
+        background: #39C894;
+        border-radius: 50%; }
+      .banner ul li .green_a {
+        position: absolute;
+        width: 0.45rem;
+        height: 0.02rem;
+        background: #39C894;
+        left: 3.3%;
+        top: 4%; }
+
+.banner_zi {
+  padding: 0.36rem 3%;
+  border-bottom: 0.18rem solid #eaeaea; }
+  .banner_zi p {
+    font-size: 0.28rem;
+    color: #333;
+    text-indent: 2em;
+    Word-spacing: 0.01rem; }
+
+.footer {
+  width: 100%; }
+  .footer .icon-backtop {
+    position: fixed;
+    font-size: 0.94rem;
+    color: #9c9c9c;
+    right: 3%;
+    bottom: 10%; }
+  .footer > p:nth-child(2) {
+    display: flex;
+    width: 50%;
+    margin: 0.4rem auto;
+    font-size: 0.28rem;
+    align-items: center; }
+    .footer > p:nth-child(2) span:nth-child(1) {
+      font-size: 0.32rem;
+      color: #39C894;
+      margin-right: 3%; }
+  .footer > div {
+    width: 100%;
+    display: flex; }
+    .footer > div > p {
+      text-align: center;
+      width: 25%;
+      font-size: 0.28rem; }
+    .footer > div > p:nth-child(1) {
+      color: #39C894; }
+
+.logo {
+  width: 100%;
+  height: 1.06rem;
+  position: relative; }
+  .logo > div:nth-child(1) {
+    width: 100%;
+    background: #000;
+    opacity: 0.8;
+    display: flex; }
+    .logo > div:nth-child(1) > div:nth-child(1) {
+      height: 0.5rem;
+      width: 0.5rem; }
+      .logo > div:nth-child(1) > div:nth-child(1) img {
+        width: 100%;
+        float: left; }
+    .logo > div:nth-child(1) > div:nth-child(2) {
+      margin-left: 3%;
+      width: 55%; }
+      .logo > div:nth-child(1) > div:nth-child(2) img {
+        width: 100%; }
+    .logo > div:nth-child(1) > div:nth-child(3) {
+      margin-left: 3%; }
+      .logo > div:nth-child(1) > div:nth-child(3) button {
+        position: absolute;
+        right: 10%;
+        top: 25%;
+        width: 1.75rem;
+        height: 0.6rem;
+        background: #feb605;
+        font-size: 0.24rem;
+        border: none;
+        color: white;
+        border-radius: 0.5rem; }
+
+/*# sourceMappingURL=style.css.map */

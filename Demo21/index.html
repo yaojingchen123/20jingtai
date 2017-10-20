@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lbt.css"/>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/only.js"></script>
+		<script src="js/lbt.js"></script>
+		<title></title>
+	</head>
+	<body background="7545A226-BA85-40EE-BA12-5FD7D34151A9.png">
+		<div class="ry_wrapper">
+			<div class="ry_header">
+				<p>居家馆</p>
+				<p>
+					<span class="iconfont icon-nav"></span>
+				</p>
+			</div>
+			<div id="swiper"></div>
+			<div class="ry_swiper-logo">
+				<img src="img/logo.png" />
+			</div>
+			<div class="ry_title">
+				<div>
+					<img src="img/small.png" />
+					<p>日用百货</p>
+				</div>
+				<div>
+					<img src="img/small.png" />
+					<p>厨房餐饮</p>
+				</div>
+				<div>
+					<img src="img/small.png" />
+					<p>数码电器</p>
+				</div>
+				<div>
+					<img src="img/small.png" />
+					<p>清洁收纳</p>
+				</div>
+				<div>
+					<img src="img/small.png" />
+					<p>美妆织物</p>
+				</div>
+			</div>
+			
+			
+			<div class="ry_banner">
+				<div>
+					<div>
+						<p>今日力荐</p>
+						<p>居家锦囊 爆款直播</p>
+					</div>
+					<div>
+						<img src="img/big01.png" />
+					</div>
+				</div>
+				<div>
+					<div>
+						<div>
+							<p>新品会</p>
+							<p>宝宝专属坐便器</p>
+						</div>
+						<div>
+							<img src="img/big02.png" />
+						</div>
+					</div>
+					<div>
+						<div>
+							<p>帮你省</p>
+							<p>凑单技巧 省钱省心</p>
+						</div>
+						<div>
+							<img src="img/big03.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+	</body>
+	<script>
+		 window.onload = function() {
+ 
+        //使用姿势：传入目标盒子ID和图片配置信息即可
+        //配置信息
+	        var opts = {
+	            //图片信息（必需）
+	            imgData: [
+	                {href: "#",src: "img/swiper-01.png"},
+	                {href: "#",src: "img/swiper-02.png"}
+	            ],
+	            time: 2000               //轮播图延时（可选）
+	        };
+	 
+	        //实例化
+	        new Carousel("swiper",opts);
+	    };
+	</script>
+</html>
